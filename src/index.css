@@ -1,0 +1,37 @@
+.card-container {
+  z-index: 99;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1000px;
+}
+img.girl-img{
+background-color: white;
+width: 50%;
+padding: 10px;
+height: 50%;
+
+}
+
+
+
+
+
+
+.btn {
+  background: transparent;
+  border: none;
+  padding: 4px 12px;
+
+  &.primary {
+    background: #bd1d2c;
+      border-radius: 10px;
+    color: white;
+  }
+
+  &.outline {
+    border: 1px solid black;
+    color: black;
+  }
+}
